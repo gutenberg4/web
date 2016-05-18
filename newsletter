@@ -1,0 +1,32 @@
+<form method="post" action="http://oi.vresp.com?fid=b09e2faefa" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >
+<div style="font-family: verdana; font-size: 11px; width: 160px; padding: 10px; border: 1px solid #000000; background: #dddddd;">
+<strong><span style="color: #333333;">Inscriere conferinte stiinta</span></strong>
+<p style="text-align: right; margin-top: 10px; margin-bottom: 10px;"><span style="color: #f00;">* </span><span style="color: #333333">Necesar</span></p>
+<label style="color: #333333;">Adresa de email</label> <span style="color: #f00">* </span>
+<br/>
+<input name="email_address" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<label style="color: #333333;">Prenume</label> <span style="color: #f00">* </span>
+<br/>
+<input name="first_name" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<label style="color: #333333;">Nume Familie</label> <span style="color: #f00">* </span>
+<br/>
+<input name="last_name" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<label style="color: #333333;">Organizatie/Companie</label> <span style="color: #f00">* </span>
+<br/>
+<input name="company_name" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<label style="color: #333333;">Telefon</label>
+<br/>
+<input name="mobile_phone" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<label style="color: #333333;">Oras</label> <span style="color: #f00">* </span>
+<br/>
+<input name="city" size="15" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
+<br/>
+<div id="captchaPreview" class="field"><img id="vrCaptchaImage" src="https://img.verticalresponse.com/blank.gif" height="35" width="125" /><br/><br/><label id="captcha_text" style="color: #333333;">Introdu codul din imagine</label><span style="color: #f00">*</span><br/><br/><span><input size="10" name="captcha_guess"/></span><input type=hidden id="vrCaptchaHash" name="captcha_hash" value=""></div><script>hex_chars=Array('0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f');hash='';hash_length=20;for(h=0;h<hash_length;h++){hash=hash+hex_chars[Math.floor(16*Math.random())];}document.getElementById('vrCaptchaHash').value=hash;captcha_image_url='https://captcha.vresp.com/produce/'+hash;document.getElementById('vrCaptchaImage').src=captcha_image_url;</script> <input type="submit" value="Trimite" style="margin-top: 5px; border: 1px solid #999; padding: 3px;"/><br/>
+
+</div>
+</form>
